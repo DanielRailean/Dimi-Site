@@ -1,6 +1,5 @@
 <script>
 	import Photo from '$lib/components/molecules/resume/Photo.svelte';
-	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
 	import Socials from '$lib/components/molecules/Socials.svelte';
 </script>
 
@@ -8,7 +7,7 @@
 	<div class="info">
 		<h2>
 			<span style="display: none;">My name is Matheus Fantinel</span>
-			I'm a student of ATCM, ..mkmkmkmkefefef
+			I'm a student of ATCM at VIA University College
 		</h2>
 		<p>
 			I believe architecture should be great for everyone — those who write it and those who use it —

@@ -8,7 +8,7 @@
 <section id="hero">
 	<h1 class="hello">Welcome!</h1>
 	<p class="intro">
-		<span class="left">I build fun stuff on the web,</span>
+		<span class="left">I make your home beautiful</span>
 		<span class="right">and sometimes write about it.</span>
 	</p>
 	<div class="ctas">
