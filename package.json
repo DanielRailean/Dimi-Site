@@ -12,8 +12,7 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"story:dev": "histoire dev",
 		"story:build": "histoire build",
-		"story:preview": "histoire preview",
-		"postbuild": "svelte-sitemap --out-dir .vercel/output/static --domain https://fantinel.dev"
+		"story:preview": "histoire preview"
 	},
 	"devDependencies": {
 		"@histoire/plugin-svelte": "^0.12.4",
