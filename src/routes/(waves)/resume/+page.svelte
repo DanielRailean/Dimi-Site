@@ -22,7 +22,9 @@
 <div class="resume-wrapper">
 	<Button
 		additionalClass="download-link"
-		href="https://github.com/"
+		on:click={async ()=> {
+			window.print()
+		}}
 		style="understated"
 		color="secondary"
 	>
