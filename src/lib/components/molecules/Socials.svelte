@@ -9,31 +9,7 @@
 
 <div class="socials">
 	<a
-		href="https://t.me/Matt_Fantinel"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="Say Hi on Telegram"
-	>
-		<TelegramIcon />
-	</a>
-	<a
-		href="https://bolha.us/@fantinel"
-		target="_blank"
-		rel="me noreferrer"
-		title="Say Hi on Mastodon"
-	>
-		<MastodonIcon />
-	</a>
-	<a
-		href="https://github.com/MatFantinel"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="See my GitHub profile"
-	>
-		<GitHubIcon />
-	</a>
-	<a
-		href="https://www.linkedin.com/in/dimitrian-cebotaru-72968b200/"
+		href="https://www.linkedin.com/in/dimitrian-cebotaru-72968b200"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
@@ -41,10 +17,10 @@
 		<LinkedInIcon />
 	</a>
 	<a
-		href="mailto:matt@fantinel.dev"
+		href="mailto:dimitrian.cebotaru@gmail.com"
 		target="_blank"
 		rel="noopener noreferrer"
-		title="Send an email to matt@fantinel.dev"
+		title="Send an email to dimitrian.cebotaru@gmail.com"
 	>
 		<EmailIcon />
 	</a>
