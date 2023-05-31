@@ -8,7 +8,6 @@
 	import ExperienceIcon from '$lib/icons/experience.svelte';
 	import StarIcon from '$lib/icons/star.svelte';
 	import { calculateYearsSince } from '$lib/utils/functions';
-
 </script>
 
 <ul class="resume-contact">

@@ -31,7 +31,6 @@ export const entries = [
 		company: 'Normal warehouse',
 		jobTitle: 'Manual worker',
 		timeframe: '2021 → 2022',
-		current: true,
 		location: 'Horsens, Denmark',
 		description:
 			'Picking',
@@ -51,7 +50,6 @@ export const entries = [
 		company: 'Autodoctor',
 		jobTitle: 'supply-chain stuff member',
 		timeframe: '2018 → 2019',
-		current: true,
 		location: 'Chisinau, Moldova',
 		description:
 			'taking care of cars',

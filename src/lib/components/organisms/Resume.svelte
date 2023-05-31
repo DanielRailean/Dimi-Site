@@ -25,9 +25,8 @@
 	<section class="about">
 		<SectionTitle>About</SectionTitle>
 		<p>
-			I have a passion for building fast, responsive and pretty UIs, bringing great designs to
-			reality and improving them as they get built. I love learning new things and applying them in
-			practical solutions, either improving existing services or building completely new ones.
+			I believe architecture should be great for everyone — those who write it and those who use it —
+			and that bringing joy to problem-solving is the key to that.
 		</p>
 	</section>
 	<section class="work">
