@@ -43,7 +43,7 @@
 		<li>VIA University College
 			<p>2020-2022</p>
 			<p>Horsens, Denmark</p>
-			<p>Software Engineering (AP)</p>
+			<p>Software Engineering</p>
 		</li>
 		<li>Online Summer School
 			<p>2017</p>
@@ -52,7 +52,7 @@
 		<li>Ion Inculet Lyceum
 			<p>2005-2017</p>
 			<p>Vorniceni, Moldova</p>
-			<p>High School with Diploma (AP)</p>
+			<p>High School Diploma</p>
 		</li>
 	</section>
 	<section class="skills">
