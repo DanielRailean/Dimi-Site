@@ -130,7 +130,6 @@
 		grid-row-gap: 30px;
 
 		> * {
-			grid-column: 2;
 		}
 
 		.full-bleed {
