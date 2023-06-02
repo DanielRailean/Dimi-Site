@@ -16,7 +16,7 @@
 			<ProjectsIcon slot="icon" />
 			2nd semester
 		</Button>
-		<Button ref="projects-btn" style="understated" href="/semester-3">
+		<Button ref="projects-btn" style="understated" href="/semester-2">
 			<ProjectsIcon slot="icon" />
 			3rd semester 
 		</Button>
