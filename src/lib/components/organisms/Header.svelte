@@ -12,8 +12,8 @@
 		<a class="logo" href="/" aria-label="Site logo">
 			<Logo {animated} {showFullLogo} />
 		</a>
+		<a href="/resume">Resume</a>
 		<div class="links">
-			<a href="/resume">Resume</a>
 			<ThemeToggle />
 		</div>
 	</nav>
@@ -59,22 +59,6 @@
 
 		a {
 			color: var(--color--text);
-		}
-
-		.links {
-			display: flex;
-			align-items: center;
-			justify-content: flex-end;
-			gap: 30px;
-
-			a {
-				text-decoration: none;
-
-				&:hover {
-					color: var(--color--primary);
-					filter: drop-shadow(0px 0px 3px var(--color--primary));
-				}
-			}
 		}
 	}
 </style>
