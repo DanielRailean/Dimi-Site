@@ -12,15 +12,15 @@
 		<span class="right">and sometimes write about it.</span>
 	</p>
 	<div class="ctas">
-		<Button ref="blog-btn" style="understated" href="/semester-3">
+		<Button ref="blog-btn" style="understated" href="/semester-2">
 			<ProjectsIcon slot="icon" />
 			2nd semester
 		</Button>
-		<Button ref="projects-btn" style="understated" href="/semester-1">
+		<Button ref="projects-btn" style="understated" href="/semester-3">
 			<ProjectsIcon slot="icon" />
 			3rd semester 
 		</Button>
-		<Button ref="blog-btn" style="understated" href="/semester-2">
+		<Button ref="blog-btn" style="understated" href="/semester-1">
 			<ProjectsIcon slot="icon" />
 			1st semester
 		</Button>
