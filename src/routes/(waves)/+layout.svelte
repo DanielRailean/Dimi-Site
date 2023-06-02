@@ -7,7 +7,6 @@
 </script>
 
 <svelte:head>
-	<link rel="“canonical”" href={siteBaseUrl} />
 	<meta name="keywords" content={keywords.join(', ')} />
 
 	<meta name="description" content={description} />

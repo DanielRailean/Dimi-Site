@@ -1,5 +1,4 @@
 <script lang="ts">
-	import ExternalLink from '$lib/icons/external-link.svelte';
 	import Github from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Card from '$lib/components/atoms/Card.svelte';
@@ -28,9 +27,7 @@
 					</a>
 				{/if}
 				{#if link}
-					<a href={link} target="_blank" rel="noopener noreferrer" title="Open Project">
-						<ExternalLink />
-					</a>
+					<a href={link} target="_blank" rel="noopener noreferrer" title="Open Project" />
 				{/if}
 			</div>
 		</div>

@@ -34,7 +34,6 @@
 		<meta name="description" content={post.excerpt} />
 		<meta property="og:description" content={post.excerpt} />
 		<meta name="twitter:description" content={post.excerpt} />
-		<link rel="canonical" href="{siteBaseUrl}/{post.slug}" />
 
 		<title>{post.title} - {title}</title>
 		<meta property="og:title" content="{post.title} - {title}" />
@@ -127,7 +126,7 @@
 		}
 
 		display: grid;
-		
+
 		grid-row-gap: 30px;
 
 		> * {

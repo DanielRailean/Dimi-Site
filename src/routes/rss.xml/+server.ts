@@ -29,12 +29,11 @@ const xml = (posts: BlogPost[]) => `
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 >
   <channel>
-    <atom:link href="http://wwww.fantinel.dev/rss.xml" rel="self" type="application/rss+xml" />
     <title>${title}</title>
     <link>${siteBaseUrl}</link>
     <description>${description}</description>
     <image>
-      <url>${siteBaseUrl}/favicons/favicon-32x32.png</url>
+      <url>${siteBaseUrl}/images/logo-modified.png</url>
       <title>${title}</title>
       <link>${siteBaseUrl}</link>
       <width>32</width>

@@ -11,4 +11,4 @@ export const description =
 
 export const title = 'Dimitrian Cebotaru';
 
-export const image = `${siteBaseUrl}/images/site-preview.jpg`;
+export const image = `${siteBaseUrl}/images/logo-modified.png`;
