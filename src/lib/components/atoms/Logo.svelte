@@ -6,7 +6,6 @@
 
 <div class="logo" class:animated>
 	<Logo />
-	<!-- </svg> -->
 	{#if showFullLogo}
 		<svg
 			id="logo-name"

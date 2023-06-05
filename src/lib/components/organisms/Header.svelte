@@ -42,6 +42,7 @@
 			display: flex;
 			align-items: center;
 			gap: 30px;
+			margin-top: 10px;
 
 			@include for-phone-only {
 				.links {
