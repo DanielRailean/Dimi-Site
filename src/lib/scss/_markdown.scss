@@ -9,6 +9,8 @@
 		p {
 			margin: 0.75rem 0;
 			line-height: 1.55em;
+			font-weight: 800;
+			font-size: 0.9rem;
 		}
 
 		h2 {
@@ -50,7 +52,7 @@
 			color: rgba(var(--color--text-rgb), 0.8);
 		}
 
-		img + figcaption {
+		img+figcaption {
 			margin-top: -1rem;
 		}
 

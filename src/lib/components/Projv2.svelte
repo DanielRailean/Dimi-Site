@@ -2,6 +2,9 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import { entries } from '$lib/data/experience';
 	import { sem2 } from '$lib/semesters';
+
+	import Projv1 from '$lib/components/Projv1.svelte';
+	import Projv3 from '$lib/components/Projv3.svelte';
 </script>
 
 <div class="main">
@@ -30,7 +33,9 @@
 		border-radius: 10px;
 		font-weight: 500;
 		font-size: 0.85rem;
-		// background-color: #e2e9e9;
+		background-color: #cccbce;
+		margin: 0.5rem;
+		font-family: 'Cera Pro';
 	}
 
 	.main {

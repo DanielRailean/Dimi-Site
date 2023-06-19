@@ -2,7 +2,7 @@ a {
 	color: var(--color--text);
 	text-decoration-color: var(--color--primary);
 	text-underline-offset: 0.1em;
-	text-decoration-thickness: 2px;
+	// text-decoration-thickness: 2px;
 	transition: all 0.2s ease-in-out;
 
 	&:hover {
@@ -20,6 +20,7 @@ strong,
 b {
 	font-weight: 600;
 }
+
 em,
 i {
 	font-style: italic;
@@ -60,4 +61,5 @@ h4,
 h5 {
 	font-family: var(--font--title);
 }
+
 // #endregion

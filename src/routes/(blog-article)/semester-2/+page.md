@@ -12,8 +12,10 @@ categories:
 
 <script context="module">
   import Projv2 from "$lib/components/Projv2.svelte";
+    import ShortDescription from "$lib/components/ShortDesSem2.svelte";
+
 </script>
 
 
-<!-- <ShortDescription /> -->
+<ShortDescription />
 <Projv2 />

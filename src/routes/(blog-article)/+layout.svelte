@@ -87,7 +87,6 @@
 	#article-content {
 		position: relative;
 		padding-top: 40px;
-		padding-bottom: 80px;
 		padding-right: 15px;
 		padding-left: 15px;
 

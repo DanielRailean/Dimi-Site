@@ -14,7 +14,9 @@ categories:
 
 <script context="module">
   import Projv1 from "$lib/components/Projv1.svelte";
+  import ShortDescription from "$lib/components/ShortDescription.svelte";
 </script>
-<!-- <ShortDescription /> -->
+
+<ShortDescription />
 <Projv1 />
 

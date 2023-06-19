@@ -21,16 +21,17 @@
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
-
 	.outline {
 		// display: flex;
-		padding: 5px 15px;
+		padding: 12px 27px;
 		align-items: center;
 		justify-content: center;
 		border-radius: 10px;
 		font-weight: 500;
 		font-size: 0.85rem;
-		// background-color: #e2e9e9;
+		background-color: #cccbce;
+		margin: 0.5rem;
+		font-family: 'Cera Pro';
 	}
 
 	.main {

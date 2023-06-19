@@ -2,12 +2,17 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import { entries } from '$lib/data/experience';
 	import { sem2 } from '$lib/semesters';
+	import ProjectsIcon from '$lib/icons/projects.svelte';
+	//     import Tab1 from "./Tab1.svelte";
+	// 	import Tab2 from "./Tab2.svelte";
+	// 	import Tab3 from "./Tab3.svelte";
+	//   import Tabs from "./Tabs.svelte";
 </script>
 
 <div class="main">
-	The first semester project is a "single-family house," covering all aspects relating to situating
-	the house on a plot, specifying and arranging rooms, selecting materials, selecting building
-	services, costing, time management etc.
+	The project methodology in the second semester is applied to the following themes: Industry and
+	Technology, International Project Week and Designing a Two-storey Single-family House with a
+	Basement.
 </div>
 
 <style lang="scss">
