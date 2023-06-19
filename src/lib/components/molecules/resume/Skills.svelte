@@ -10,10 +10,6 @@
 			<span class="tag">SketchUp</span>
 			<span class="tag">Autodesk</span>
 			<span class="tag">Enscape</span>
-
-
-
-		
 		</div>
 	</li>
 	<li>
@@ -27,11 +23,10 @@
 			<span class="tag secondary">Blazor</span>
 			<span class="tag secondary">API Development</span>
 			<span class="tag secondary">Agile</span>
-
 		</div>
 	</li>
 	<li>
-		Skills
+		Features
 		<div class="tags-container">
 			<span class="tag secondary">Communication</span>
 			<span class="tag secondary">Problem-solving</span>
@@ -42,8 +37,6 @@
 			<span class="tag secondary">Project management</span>
 			<span class="tag secondary">Critical thinking</span>
 			<span class="tag secondary">Leadership</span>
-
-
 		</div>
 	</li>
 </ul>

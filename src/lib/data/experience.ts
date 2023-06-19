@@ -14,7 +14,7 @@ export const entries = [
 		current: true,
 		location: 'Horsens, Denmark',
 		description:
-			'Working with boxes',
+			'Logistics, manual work, working in social environment, warehouse operations, inventory and cost management',
 		tags: [
 			{
 				color: 'primary',
@@ -33,7 +33,7 @@ export const entries = [
 		timeframe: '2021 → 2022',
 		location: 'Horsens, Denmark',
 		description:
-			'Picking',
+			'Logistics, manual work, working in social environment',
 		tags: [
 			{
 				color: 'primary',
@@ -52,7 +52,7 @@ export const entries = [
 		timeframe: '2018 → 2019',
 		location: 'Chisinau, Moldova',
 		description:
-			'taking care of cars',
+			'Manual work and research',
 		tags: [
 			{
 				color: 'primary',
@@ -64,6 +64,6 @@ export const entries = [
 			}
 		]
 	},
-	
-	
+
+
 ] as ExperienceEntry[];

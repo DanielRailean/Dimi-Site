@@ -17,7 +17,7 @@
 	</div>
 	<section class="name-and-contact">
 		<Title />
-		<Contact  />
+		<Contact />
 	</section>
 	<section class="photo">
 		<Photo />
@@ -25,8 +25,11 @@
 	<section class="about">
 		<SectionTitle>About</SectionTitle>
 		<p>
-			I believe architecture should be great for everyone — those who write it and those who use it —
-			and that bringing joy to problem-solving is the key to that.
+			Being part of world with amazing architecture thrived me to explore my career and build modern
+			solution for people. I am a dedicated and innovative student focusing on design and project
+			management, where I am using my attention to detail character. I believe that architecture is
+			developing and bringing new ideas every day to create the best experience for human.
+			Sustainability is also my main focus as using our natural resources is very important.
 		</p>
 	</section>
 	<section class="work">
@@ -35,24 +38,36 @@
 	</section>
 	<section class="education">
 		<SectionTitle>Education</SectionTitle>
-		<li>VIA University College
-			<p>2022-2025</p>
-			<p>Horsens, Denmark</p>
-			<p>Architecture Technology and Construction Management (Bachelor)</p>
+		<li class="school">
+			VIA University College
+			<div>
+				<p>2022-2025</p>
+				<p>Horsens, Denmark</p>
+				<p>Architecture Technology and Construction Management (Bachelor)</p>
+			</div>
 		</li>
-		<li>VIA University College
-			<p>2020-2022</p>
-			<p>Horsens, Denmark</p>
-			<p>Software Engineering</p>
+		<li class="school">
+			VIA University College
+			<div>
+				<p>2020-2022</p>
+				<p>Horsens, Denmark</p>
+				<p>Software Engineering</p>
+			</div>
 		</li>
-		<li>Online Summer School
-			<p>2017</p>
-			<p>Digital Strategy and Social Media </p>
+		<li class="school">
+			Online Summer School
+			<div>
+				<p>2017</p>
+				<p>Digital Strategy and Social Media</p>
+			</div>
 		</li>
-		<li>Ion Inculet Lyceum
-			<p>2005-2017</p>
-			<p>Vorniceni, Moldova</p>
-			<p>High School Diploma</p>
+		<li class="school">
+			Ion Inculet Lyceum
+			<div>
+				<p>2005-2017</p>
+				<p>Vorniceni, Moldova</p>
+				<p>High School Diploma</p>
+			</div>
 		</li>
 	</section>
 	<section class="skills">
@@ -86,13 +101,12 @@
 		@media (min-width: 768px), print {
 			padding: 30px 20px;
 			grid-template-columns: 2fr 1fr;
-			grid-template-rows: 1fr 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
 
 			grid-template-areas:
 				'name photo'
 				'work about'
-				'work skills'
-				'work education';
+				'education skills';
 		}
 
 		@media (min-width: 900px), print {
@@ -110,7 +124,7 @@
 				grid-area: name;
 				display: flex;
 				flex-direction: column;
-				justify-content: space-between;
+				justify-content: space-evenly;
 			}
 			&.photo {
 				grid-area: photo;
@@ -133,6 +147,17 @@
 
 				p {
 					text-align: justify;
+				}
+				li {
+					color: black;
+					font-weight: 800;
+				}
+				div {
+					color: black;
+					font-weight: 300;
+					padding-left: 2rem;
+					padding-top: 0.5rem;
+					padding-bottom: 0.5rem;
 				}
 			}
 			&.skills {

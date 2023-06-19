@@ -4,6 +4,7 @@
 	import { title } from '$lib/data/meta';
 	import DownloadIcon from '$lib/icons/download.svelte';
 	import type { ExperienceEntry } from '$lib/utils/types';
+	import DimiPDF from '$lib/images/dimitrian.pdf';
 
 	export let data: {
 		yearsOfExperience: number;
@@ -22,8 +23,8 @@
 <div class="resume-wrapper">
 	<Button
 		additionalClass="download-link"
-		on:click={async ()=> {
-			window.print()
+		on:click={async () => {
+			window.print();
 		}}
 		style="understated"
 		color="secondary"

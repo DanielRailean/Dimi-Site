@@ -27,6 +27,7 @@
 		<span class="icon"><EmailIcon /></span>
 		<a href="mailto:299115@via.dk">299115@via.dk</a>
 	</li>
+
 	<li class="linkedin">
 		<span class="icon"><LinkedInIcon /></span>
 		<a
@@ -45,6 +46,7 @@
 
 <style lang="scss">
 	.resume-contact {
+		width: 140%;
 		list-style: none;
 		padding: 0;
 		margin-left: auto;
@@ -125,8 +127,7 @@
 			grid-template-areas:
 				'location github'
 				'birthday linkedin'
-				'experience email'
-				'languages website';
+				'languages email';
 
 			li {
 				&.email {

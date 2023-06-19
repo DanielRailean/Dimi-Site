@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Project } from '$lib/utils/types';
-	import type {Semester2} from '$lib/utils/types';
+	import type { Semester2 } from '$lib/utils/types';
 	import ProjectCard from '$lib/components/molecules/ProjectCard.svelte';
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 

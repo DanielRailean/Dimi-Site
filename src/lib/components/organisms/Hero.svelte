@@ -12,9 +12,9 @@
 		<span class="right">and sometimes write about it.</span>
 	</p>
 	<div class="ctas">
-		<Button style="understated" href="/semester-2">
+		<Button style="understated" href="/semester-3">
 			<ProjectsIcon slot="icon" />
-			3rd semester 
+			3rd semester
 		</Button>
 		<Button style="understated" href="/semester-2">
 			<ProjectsIcon slot="icon" />
@@ -24,7 +24,6 @@
 			<ProjectsIcon slot="icon" />
 			1st semester
 		</Button>
-	
 	</div>
 </section>
 
@@ -61,7 +60,6 @@
 			.right {
 				text-align: right;
 			}
-
 		}
 
 		.ctas {

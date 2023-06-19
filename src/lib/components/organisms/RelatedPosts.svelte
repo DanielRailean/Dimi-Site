@@ -6,26 +6,6 @@
 	export let posts: BlogPost[];
 </script>
 
-<ContentSection
-	id="related-posts"
-	title="Related Posts"
-	description="Have some time? Feel free to read some other posts by me."
->
-	<div class="simple-grid">
-		{#each posts as post}
-			<BlogPostCard
-				slug={post.slug}
-				title={post.title}
-				excerpt={post.excerpt}
-				tags={post.tags}
-				categories={post.categories}
-				readingTime={post.readingTime}
-				showImage={false}
-			/>
-		{/each}
-	</div>
-</ContentSection>
-
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 

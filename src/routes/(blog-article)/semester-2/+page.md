@@ -2,7 +2,7 @@
 slug: semester-2
 title: Semester 2
 Created: 2023-05-21
-excerpt: An overview of the experience I've had using these amazing projects.
+excerpt: Project..An overview of the experience I've had using these amazing projects.
 tags:
   - sem2
 categories:
@@ -15,4 +15,5 @@ categories:
 </script>
 
 
+<!-- <ShortDescription /> -->
 <Projv2 />
