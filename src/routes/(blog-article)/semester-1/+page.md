@@ -1,6 +1,6 @@
 ---
 slug: semester-1
-title: Looking Back at 2020
+title: Semester 1
 date: 2020-12-28
 excerpt: 2020 definitely wasn't our best year... but let's remember what was good about
   it.
