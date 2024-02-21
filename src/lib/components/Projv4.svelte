@@ -2,6 +2,7 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import { entries } from '$lib/data/experience';
 	import { sem4 } from '$lib/semesters';
+	import Card from './atoms/Card.svelte';
 </script>
 
 <div class="main">
@@ -14,6 +15,7 @@
 				<div>
 					<!-- <a href="/data/sem4/{value2}" target="_blank">{key2}</a> -->
 				</div>
+				<Card>hi</Card>
 			{/each}
 		</div>
 	{/each}
