@@ -76,3 +76,10 @@ export const sem3 = {
 
 
 }
+export const sem4 = {
+    "Semester 3 booklet": {
+        "Booklet": "booklet-Dimitrian.pdf",
+    },
+
+
+}

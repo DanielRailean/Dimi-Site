@@ -12,6 +12,10 @@
 		<span class="right">and sometimes write about it.</span>
 	</p>
 	<div class="ctas">
+		<Button style="understated" href="/semester-4">
+			<ProjectsIcon slot="icon" />
+			4th semester
+		</Button>
 		<Button style="understated" href="/semester-3">
 			<ProjectsIcon slot="icon" />
 			3rd semester
