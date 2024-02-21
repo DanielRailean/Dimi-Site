@@ -14,7 +14,7 @@
 	<div class="ctas">
 		<Button style="understated" href="/semester-4">
 			<ProjectsIcon slot="icon" />
-			4th semester
+			5th semester
 		</Button>
 		<Button style="understated" href="/semester-3">
 			<ProjectsIcon slot="icon" />
