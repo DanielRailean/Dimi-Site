@@ -77,9 +77,44 @@ export const sem3 = {
 
 }
 export const sem4 = {
-    "Semester 3 booklet": {
-        "Booklet": "booklet-Dimitrian.pdf",
-    },
 
+    "Outline Proposal": {
+        "Poster": "Poster - Group 2 Print.pdf",
+        "Renders": "Renders.jpg",
+    },
+    "BDS": {
+        "Bathroom Analysis": "Bathroom analysis.pdf",
+        "Kitchen Analysis": "Kitchen analysis - One bedroom apt..pdf",
+        "Details": "Details_Merged.pdf",
+        "Fire analysis": "Fire Analysis Ground Floor.pdf",
+        "Floor Plans": "Floor Plans Merged.pdf",
+        "Hollowcore Deck Plan": "Hollow-Decks-merged.pdf",
+        "Cross Section": "Cross Section C-C.pdf",
+
+    },
+    "BPM": {
+        "Balcony Construction Schedule": "Balcony Construction Schedule.pdf",
+        "Building Construction Schedyle": "Building Construction Schedyle.pdf",
+        "Construction Site Plan": "Construction site plan.pdf",
+        "Site Plan": "Site Plan.pdf",
+    },
+    "BSE": {
+        "Installation Shaft": "Installation Shaft.pdf",
+        "Light Analysis": "Light Analysis.pdf",
+        "Sound Analysis": "Sound Analysis.pdf",
+        "Ventilation": "Ventilation.pdf",
+        "Waste and Rain Water Plan": "Waste and Rain Water Plan.pdf",
+        "Wet room analysis": "Wet room analysis.pdf",
+    },
+    "STD": {
+        "STD Analysis": "STD Analysis.pdf",
+        "Vertical Load": "Vertical Load.pdf",
+    },
+    "Regulatory": {
+        "Application for building permit": "Application for building permit.pdf",
+        "Application receipt": "Application receipt.pdf",
+        "Cross Section": "Cross Section C-C.pdf",
+        "Floor Plans": "Floor Plans Merged.pdf",
+    },
 
 }

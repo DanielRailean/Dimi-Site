@@ -15,8 +15,8 @@
 				<div>
 					<!-- <a href="/data/sem4/{value2}" target="_blank">{key2}</a> -->
 				</div>
-				<Card>hi</Card>
 			{/each}
+			<!-- <Card>hi</Card> -->
 		</div>
 	{/each}
 </div>
