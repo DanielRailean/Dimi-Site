@@ -13,7 +13,7 @@
 			</div>
 			{#each Object.entries(value) as [key2, value2]}
 				<div>
-					<!-- <a href="/data/sem4/{value2}" target="_blank">{key2}</a> -->
+					<a href="/data/sem4/{value2}" target="_blank">{key2}</a>
 				</div>
 			{/each}
 			<!-- <Card>hi</Card> -->
