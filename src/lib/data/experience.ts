@@ -14,7 +14,7 @@ export const entries = [
 		current: true,
 		location: 'Horsens, Denmark',
 		description:
-			'Logistics, manual work, working in social environment, warehouse operations, inventory and cost management',
+			'Process optimization, Upgrades and Integration, Troubleshooting and support, Data Analysis',
 		tags: [
 			{
 				color: 'primary',
