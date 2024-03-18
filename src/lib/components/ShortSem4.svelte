@@ -6,9 +6,8 @@
 
 <div class="desc-photo" style="display:flex">
 	<div class="main">
-		The 4th semester was focused Multi-storey buildings with dwellings and commercial units. The
-		main goal was to design 2 new buildings for a mixed residential,commercial in 4 floors including
-		partial basement.
+		The 4th semester was focused on Multi-storey buildings with dwellings. The main goal was to
+		design a building for a mixed residential in 3 floors including partial basement.
 	</div>
 	<div class="photo" style="margin-top: -6rem; padding-left: 2rem; ">
 		<img class="image" src={photo4.png} alt="Dimitrian" />
