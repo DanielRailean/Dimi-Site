@@ -6,9 +6,9 @@
 
 <div class="desc-photo" style="display:flex">
 	<div class="main">
-		The overall theme in the 3rd semester is "Industrialised building design". As with the previous
-		two semesters, the predominant work method was project work - carried out as group work whenever
-		possible.
+		The 4th semester was focused Multi-storey buildings with dwellings and commercial units. The
+		main goal was to design 2 new buildings for a mixed residential,commercial in 4 floors including
+		partial basement.
 	</div>
 	<div class="photo" style="margin-top: -6rem; padding-left: 2rem; ">
 		<img class="image" src={photo4.png} alt="Dimitrian" />
