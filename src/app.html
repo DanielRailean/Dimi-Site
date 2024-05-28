@@ -1,63 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
 
-		<!-- Favicon -->
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="%sveltekit.assets%/images/logo-modified.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="%sveltekit.assets%/images/logo-modified.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="%sveltekit.assets%/images/logo-modified.png"
-		/>
-		<link
-			rel="mask-icon"
-			href="%sveltekit.assets%/images/logo-modified.png"
-			color="#5f6263"
-		/>
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/images/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Tell browser this site is responsive -->
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- Tell browser this site supports light and dark mode -->
-		<meta name="color-scheme" content="light dark" />
-		<!-- Color for browser url bar in mobile/Safari -->
-		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#C2E6E9" />
-		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#163F45" />
-		<!-- Disable Google FLOC -->
-		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+	%sveltekit.head%
+	<!-- You can replace this block to update the Google fonts used in the project -->
+	<link rel="preconnect" href="https://api.fonts.coollabs.io">
+	<link href="https://api.fonts.coollabs.io/css2?family=Courier+Prime&family=Overpass:wght@300&display=swap"
+		rel="stylesheet">
+	<script async src="https://umami.cap.danr.cc/script.js"
+		data-website-id="f91b4336-81c3-4e2c-8378-0016f0d66111"></script>
+	<!-- <link rel="stylesheet" href="/prism/prism.css">
+		<script src="/prism/prism.js"></script> -->
+</head>
 
-		<!-- Twitter stuff -->
-		<meta name="author" content="Dimitrian Cebotaru" />
-		<meta name="twitter:card" content="summary_large_image" />
+<body>
+	<script>
+		if (!localStorage.theme) {
+			if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+				document.documentElement.classList.add("dark");
+			} else {
+				document.documentElement.classList.remove("dark");
+			}
+		} else {
+			if (localStorage.theme === "dark") {
+				document.documentElement.classList.add("dark");
+			} else {
+				document.documentElement.classList.remove("dark");
+			}
+		}
+	</script>
+	<div id="svelte" class="bg-gray-100 leading-normal tracking-normal scrollbar-hide dark:bg-stone-800">
+		%sveltekit.body%</div>
+</body>
 
-		<!-- Plausible - ethical analytics -->
-		<script
-			src="/stats/js/script.js"
-			data-api="/stats/api/event"
-			data-domain="fantinel.dev"
-		></script>
-
-		<script>
-			// Calling this here so that it loads as quickly as possible
-			// Avoiding a flash of light mode in case dark mode is used
-			const theme = localStorage.getItem('theme-preference') || 'auto';
-			document.firstElementChild?.setAttribute('data-theme', theme);
-		</script>
-
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div id="svelte-root">%sveltekit.body%</div>
-	</body>
 </html>

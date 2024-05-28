@@ -1,15 +1,19 @@
-import { sveltekit } from '@sveltejs/kit/vite';
-import { imagetools } from 'vite-imagetools';
-import path from 'path';
+import { sveltekit } from '@sveltejs/kit/vite'
+import { vitePreprocess } from '@sveltejs/kit/vite';
+import { optimizeImages } from './optimize-images-vite-plugin';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [imagetools(), sveltekit()],
-	resolve: {
-		alias: {
-			$routes: path.resolve('./src/routes')
+	plugins: [
+		optimizeImages({inputFolder: "./static/images", outputFolder: "./static/images"}),
+		sveltekit(), 
+		],
+	server: {
+		fs: {
+			allow: ['.']
 		}
-	}
+	},
+	preprocess: vitePreprocess()
 };
 
-export default config;
+export default config

@@ -1,0 +1,337 @@
+@tailwind base;
+@layer base {
+    h1 {
+      @apply text-4xl font-extrabold dark:text-gray-100 my-8;
+    }
+    h2 {
+      @apply text-3xl font-extrabold dark:text-gray-100 my-6;
+    }
+    h3 {
+      @apply text-2xl font-bold dark:text-gray-100 my-4;
+    }
+    h4 {
+      @apply text-xl font-bold dark:text-gray-100 my-3;
+    }
+    h5 {
+      @apply text-lg font-bold dark:text-gray-100 my-2;
+    }
+    h6 {
+      @apply text-base font-bold dark:text-gray-100 my-1;
+    }
+    a {
+      @apply dark:text-stone-100 text-stone-800 no-underline font-bold;
+    }
+
+    a:hover {
+        @apply underline decoration-blue-600;
+    }
+
+
+    p, li {
+        @apply text-base dark:text-gray-100;
+        /* list-style-type: '👉'; */
+    }
+
+    code:not([class*="language"]) {
+      @apply px-1 py-[1px] bg-stone-300 dark:bg-stone-900 rounded shadow mx-auto;
+    }
+
+    ul, ol {
+      @apply list-inside
+       /* ml-3 p-0 */
+    }
+
+    li:before 
+    {
+      content: "-";
+      /* list-style-type: "-" */
+      @apply mr-2
+    }
+    /* ul {
+      list-style-type: circle;
+    } */
+
+    ol {
+      @apply list-decimal
+    }
+
+    h1,h2,h3,h4,h5,h6,p,ul,ol,li,a {
+      font-family: 'Overpass', sans-serif;
+    }
+  }
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+  scroll-padding-top: 5rem;
+  font-size: 19px;
+}
+
+:root {
+  @apply bg-gray-100;
+}
+
+:root.dark {
+  @apply bg-stone-800;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  padding: 0;
+  margin: 0
+}
+
+::-webkit-scrollbar-corner {
+  @apply dark:bg-stone-800 bg-gray-100;
+}
+
+::-webkit-scrollbar-track {
+@apply  bg-stone-200 dark:bg-stone-700
+}
+
+::-webkit-scrollbar-thumb {
+@apply  bg-stone-400 dark:bg-stone-600
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+@apply bg-stone-400 dark:bg-gray-600
+}
+
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+* {
+    @apply dark:text-gray-100 text-gray-900
+}
+
+body * {
+  @apply transition-colors duration-500;
+}
+
+p img {
+  @apply py-4;
+}
+
+/* http://prismjs.com/download.html?themes=prism-coy&languages=markup+css+clike+javascript+typescript&plugins=line-highlight+line-numbers+toolbar+normalize-whitespace+show-language+copy-to-clipboard */
+/**
+ * prism.js Coy theme for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/tshedor/workshop-wp-theme (Example: http://workshop.kansan.com/category/sessions/basics or http://workshop.timshedor.com/category/sessions/basics);
+ * @author Tim  Shedor
+ */
+
+ pre[class*="language-"] {
+    @apply shadow border border-stone-200 dark:border-stone-800;
+ }
+
+pre[class*="language-"],
+code[class*="language-"] {
+	font-size: 16px;
+	text-shadow: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+  font-family: 'courier prime', monospace; 
+	hyphens: none;
+    @apply rounded-lg
+    bg-gray-50
+    dark:bg-stone-900 dark:text-gray-50
+    align-middle
+    max-h-64;
+    /* border-b-0; */
+}
+
+pre[class*="language-"]::selection,
+code[class*="language-"]::selection,
+pre[class*="language-"] *::selection,
+code[class*="language-"] *::selection {
+	text-shadow: none;
+	background: #264F78;
+    @apply text-[#f8f8f8]
+}
+
+code {
+  font-family: 'courier prime', monospace; 
+
+}
+
+@media print {
+	pre[class*="language-"],
+	code[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+pre[class*="language-"] {
+	padding: 1em;
+	overflow: auto;
+  @apply my-5
+}
+
+.code-wrap pre[class*="language-"] {
+  @apply my-0 border-none shadow-none
+}
+
+:not(pre) > code[class*="language-"] {
+	padding: .1em .3em;
+	border-radius: .3em;
+	color: #db4c69;
+}
+/*********************************************************
+* Tokens
+*/
+.namespace {
+	opacity: .7;
+}
+
+.token.comment,
+.token.prolog {
+	color: #6a9955;
+}
+
+pre[class*="language-html"],
+code[class*="language-html"],
+.token.punctuation,
+.language-html .language-css .token.punctuation,
+.language-html .language-javascript .token.punctuation,
+.token.operator,
+.token.entity,
+.token.atrule .token.url .token.punctuation,
+.token.attr-value .token.punctuation.attr-equals {
+	@apply text-gray-700 dark:text-gray-200;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.inserted,
+.token.unit {
+	@apply text-emerald-600 dark:text-emerald-300;
+}
+
+pre[class*="language-css"],
+code[class*="language-css"],
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.deleted,
+.token.atrule,
+.token.attr-value,
+.token.attr-value .token.punctuation {
+	color: #ce9178;
+}
+
+.language-css .token.string.url {
+	text-decoration: underline;
+}
+
+.token.atrule .token.url .token.function,
+.language-regex .token.anchor,
+.token.function,
+.token.function .token.maybe-class-name  {
+	@apply text-lime-600 dark:text-lime-300;
+}
+
+.token.keyword.module,
+.token.keyword.control-flow,
+.token.atrule .token.rule {
+	color: #c586c0;
+}
+
+
+.token.regex {
+	color: #d16969;
+}
+
+
+.token.italic {
+	font-style: italic;
+}
+
+
+.token.class-name,
+.token.maybe-class-name,
+.token.namespace {
+    color: #4ec9b0;
+}
+
+pre[class*="language-javascript"],
+code[class*="language-javascript"],
+pre[class*="language-jsx"],
+code[class*="language-jsx"],
+pre[class*="language-typescript"],
+code[class*="language-typescript"],
+pre[class*="language-tsx"],
+code[class*="language-tsx"],
+.token.constant,
+.token.console,
+.token.parameter,
+.token.interpolation,
+.token.property,
+.token.variable,
+.token.attr-name,
+.token.imports .token.maybe-class-name,
+.token.exports .token.maybe-class-name,
+.token.atrule .token.url,
+.token.doctype .token.name {
+    @apply text-blue-600 dark:text-indigo-400;
+}
+
+.token.tag,
+.token.punctuation.interpolation-punctuation,
+.token.boolean,
+.token.entity,
+.token.important,
+.token.keyword,
+.token.doctype .token.doctype-tag,
+.token.operator.arrow {
+    @apply text-sky-700 dark:text-sky-500;
+}
+
+
+.token.selector,
+.token.escape {
+	@apply text-yellow-600 dark:text-yellow-300
+}
+
+
+.token.tag .token.punctuation,
+.token.cdata {
+  @apply text-gray-700 dark:text-gray-200;
+}
+
+
+.language-html .token.punctuation {
+  @apply text-gray-700 dark:text-gray-200;
+}
+/*********************************************************
+* Line highlighting
+*/
+pre[class*="language-"] > code[class*="language-"] {
+	position: relative;
+	z-index: 1;
+}

@@ -1,0 +1,74 @@
+<script>
+    import { createEventDispatcher } from 'svelte'
+    import Check from './paths/check.svelte'
+    import Gear from './paths/gear.svelte'
+    import Heart from './paths/heart.svelte'
+    import Sync from './paths/sync.svelte'
+    import TrashBin from './paths/trash-bin.svelte'
+    import Up from './paths/up.svelte'
+    import Moon from './paths/moon.svelte';
+    import Sun from './paths/sun.svelte';
+    import BarsOffset from './paths/bars-offset.svelte';
+    import Chevron from './paths/chevron.svelte';
+    const dispatch = createEventDispatcher()
+
+    export let size = 4
+    export let extraClass = ''
+    export let extraClassDiv = ''
+
+    export let stopPropagation = true
+    export let filled = false
+
+    export let icon = undefined
+
+    function handleClick(event) {
+        if (stopPropagation) {
+            event.stopPropagation()
+        }
+        dispatch('click')
+    }
+
+    export let title = ''
+</script>
+
+<div {title} class="h-{size} w-{size} {extraClassDiv} mx-auto my-auto" on:click={handleClick}>
+    <!-- items offered under MIT license -->
+    <!-- https://github.com/gorango/glyphs/blob/main/license -->
+    <!-- https://glyphs.fyi/dir?q=moon -->
+    <svg
+        class="mx-0 my-auto h-{size} w-{size}
+rounded 
+stroke-gray-800 hover:cursor-pointer dark:stroke-gray-200
+{filled ? 'fill-gray-800 dark:fill-gray-200' : ''}
+{extraClass}
+"
+        focusable="false"
+        fill="none"
+        viewBox="0 0 80 80"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        {#if icon == 'sync'}
+            <Sync />
+        {:else if icon == 'check'}
+            <Check />
+        {:else if icon == 'up'}
+            <Up />
+        {:else if icon == 'gear'}
+            <Gear />
+        {:else if icon == 'heart'}
+            <Heart />
+        {:else if icon == 'trash-bin'}
+            <TrashBin />
+        {:else if icon == 'moon'}
+            <Moon />
+        {:else if icon == 'sun'}
+            <Sun />
+        {:else if icon == 'bars-offset'}
+            <BarsOffset />
+        {:else if icon == 'chevron'}
+            <Chevron />
+        {:else}
+            select an icon
+        {/if}
+    </svg>
+</div>

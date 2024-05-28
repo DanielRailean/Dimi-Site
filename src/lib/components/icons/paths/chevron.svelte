@@ -1,0 +1,2 @@
+<path d="M15.9629 44.1831L37.8416 22.3045C39.0131 21.1329 40.9126 21.1329 42.0842 22.3045L63.9629 44.1831" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M15.9629 60.1831L37.8416 38.3045C39.0131 37.1329 40.9126 37.1329 42.0842 38.3045L63.9629 60.1831" stroke-linecap="round" stroke-linejoin="round" />
