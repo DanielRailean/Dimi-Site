@@ -1,7 +1,7 @@
-# Contact
+# Wanna get in contact?
 
 Drop me an email at
 
 ```email
-me@ddlele.com
+dimitrian.cebotaru@gmail.com
 ```

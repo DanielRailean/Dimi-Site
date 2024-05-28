@@ -1,5 +1,5 @@
 // IMPORTANT: update all these property values in src/lib/config.js
-import { siteTitle, siteDescription, siteURL, siteLink } from '$lib/config'
+import { siteTitle, siteDescription, siteURL } from '$lib/config'
 
 export const prerender = true
 
@@ -36,7 +36,7 @@ const render = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>
 <channel>
 <title>${siteTitle}</title>
 <description>${siteDescription}</description>
-<link>${siteLink}</link>
+<link>${siteURL}</link>
 <atom:link href="https://${siteURL}/rss.xml" rel="self" type="application/rss+xml"/>
 ${posts
 		.map(

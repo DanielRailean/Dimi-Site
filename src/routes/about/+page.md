@@ -1,21 +1,9 @@
 <svelte:head>
-	<title>About</title>
+	<title>About me</title>
 </svelte:head>
 
-# About
+# About me
 
-This is an example of how you can have _markdown_ in page content!
+I'm a student of ATCM at VIA University College
 
-- How
-- **Cool**
-- Is _that_!?
-
-If you like, you can also import markdown into any Svelte page.
-
-Anyway, you can find this file here:
-
-```
-src/routes/about/+page.md
-```
-
-Here's the [home link](/) if you wanna go back.
+I believe architecture should be great for everyone — those who write it and those who use it — and that bringing joy to problem-solving is the key to that
