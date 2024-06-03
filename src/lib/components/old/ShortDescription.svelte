@@ -9,9 +9,11 @@
 
 <div class="desc-photo" style="display:flex">
 	<div class="main">
-		The first semester project is a "single-family house," covering all aspects relating to
-		situating the house on a plot, specifying and arranging rooms, selecting materials, selecting
-		building services, costing, time management etc.
+		
+The first project is a "single-family house," covering all aspects relating to situating the house on a plot, specifying and arranging rooms, selecting materials, selecting building services, costing, time management etc.
+
+The primary focus of this semester was to learn first steps in developing an architecture project. 
+<li><ul> Time Management </ul> <ul>Selecting materials selecting building services </ul></li>
 	</div>
 	<div class="photo" style="margin-top: -6rem; padding-left: 2rem; ">
 		<img style="border-radius:25px; height:200px" src={photo1.png} alt="Dimitrian" />

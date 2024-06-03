@@ -2,12 +2,12 @@
 	import { semesters } from "$lib/semesters";
 </script>
 
-<h5>Links to the documentation we wrote:</h5>
+<h5>The project consists of multiple drawings, divided into sections:</h5>
 <div class="flex flex-row justify-center">
 	{#each Object.entries(semesters["2"]) as [key, value]}
 		<div class="mx-4">
 			<div>
-				<p class="text-xs">{key}</p>
+				<p class="text-md"><b><u>{key}</u></b></p>
 			</div>
 			{#each Object.entries(value) as [key2, value2]}
 				<div>

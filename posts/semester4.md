@@ -10,7 +10,7 @@ coverImage: /images/4.png
 coverImageAlt: building render image
 coverWidth: 800
 coverHeight: 450
-excerpt: A short description of what we built during my second semester, autumn 2023 - spring 2024
+excerpt: The overall theme in the 4th semester is “Multi-storey buildings with dwellings and commercial units”.
 author: Dimitrian Cebotaru
 authorImageUrl: /images/dimi.png
 minutesToRead: 8
@@ -20,8 +20,7 @@ minutesToRead: 8
 import Sem1 from "$lib/components/old/sem4.svelte"
 </script>
 
-The 4th semester was focused on Multi-storey buildings with dwellings. The main goal was to design a building for a mixed residential in 3 floors including partial basement.
-
-it was a nice semester and we learned a lot
+The overall theme in the 4th semester is “Multi-storey buildings with dwellings and commercial units”. 
+This theme will define the framework for the projects to be carried out. 
 
 <Sem1></Sem1>
